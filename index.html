@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather</title>
+
+</head>
+
+<div class="container">
+  <h1 class="heading">Weather Dashboard</h1>
+</div>
+
+<div class="container2">
+  <div class="row">
+    <div class="col-md-5 border-right border-silver">
+      <div id="search-section">
+        <h4 class=" input-group mb-6">Search for a City:</h4>
+      </div>
+
+      <form class="search" style="max-width:500px">
+        <input type="text" placeholder="Search" class="Search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+      
+    
+   <div id="showData" class="showData"></div>
+
+    <div class="col-md-7">
+
+      <div class="row" id="currentWeather">
+
+        <div class="col-lg-12">
+
+          <h2 class="current-city"></h2>
+
+          <p id="temp">Temperture:</p>
+          <p id="hum">Humidity:</p>
+          <p id="windy">Windy speed:</p>
+          <p id="uv">UV idex:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="fiveDays">
+          <h2>5-Day Forecast:</h2>
+        </div>
+      </div>
+      
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+
+</html>

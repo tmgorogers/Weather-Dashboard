@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  .container {
+background-color:gray; 
+padding:0;
+padding-bottom: 1% ;
+margin:0;
+max-width: none;
+  }
+.heading{
+    text-align: center;
+    color: white;
+}
+.search-section {
+    border:1px;
+    background-color: lightblue;
+    
+}
+
+  form.search input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  .search-sumbit button:hover {
+    background: #0b7dda;
+  }
+  
+  
